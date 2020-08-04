@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xmlrpc;version="0.3.7";uses:="org.apache.xm
+ lrpc.common",org.apache.xmlrpc.common;version="0.3.7";uses:="org.apac
+ he.ws.commons.util,org.apache.xmlrpc,org.apache.xmlrpc.parser,org.apa
+ che.xmlrpc.serializer,org.xml.sax",org.apache.xmlrpc.jaxb;version="0.
+ 3.7";uses:="javax.xml.bind,org.apache.ws.commons.util,org.apache.xmlr
+ pc,org.apache.xmlrpc.common,org.apache.xmlrpc.parser,org.apache.xmlrp
+ c.serializer,org.xml.sax",org.apache.xmlrpc.parser;version="0.3.7";us
+ es:="org.apache.ws.commons.util,org.apache.xmlrpc,org.apache.xmlrpc.c
+ ommon,org.xml.sax",org.apache.xmlrpc.serializer;version="0.3.7";uses:
+ ="org.apache.ws.commons.serialize,org.apache.xmlrpc,org.apache.xmlrpc
+ .common,org.xml.sax",org.apache.xmlrpc.util;version="0.3.7";uses:="ja
+ vax.xml.parsers,org.apache.xmlrpc,org.apache.xmlrpc.common,org.xml.sa
+ x"
+Bundle-SymbolicName: org.ros.rosjava_core.apache_xmlrpc_common
+Bundle-Version: 0.3.7
+Bundle-Name: apache_xmlrpc_common
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1596482389000
+Import-Package: javax.xml.bind,javax.xml.namespace,javax.xml.parsers,o
+ rg.apache.ws.commons.serialize,org.apache.ws.commons.util,org.apache.
+ xmlrpc;version="[0.3,1)",org.apache.xmlrpc.common;version="[0.3,1)",o
+ rg.apache.xmlrpc.parser;version="[0.3,1)",org.apache.xmlrpc.serialize
+ r;version="[0.3,1)",org.apache.xmlrpc.util;version="[0.3,1)",org.w3c.
+ dom,org.xml.sax,org.xml.sax.helpers
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Created-By: 1.8.0_252 (Private Build)
+Tool: Bnd-3.4.0.201707252008
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: org.ros.helpers;version="0.3.7";uses:="org.ros.namespa
+ ce,org.ros.node"
+Bundle-SymbolicName: org.ros.rosjava_core.rosjava_helpers
+Bundle-Version: 0.3.7
+Bundle-Name: rosjava_helpers
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1596482391000
+Import-Package: com.google.common.base;version="[12.0,13)",org.apache.
+ commons.logging;version="[1.1,2)",org.ros.namespace,org.ros.node,org.
+ ros.node.parameter,org.yaml.snakeyaml;version="[1.17,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Created-By: 1.8.0_252 (Private Build)
+Tool: Bnd-3.4.0.201707252008
+

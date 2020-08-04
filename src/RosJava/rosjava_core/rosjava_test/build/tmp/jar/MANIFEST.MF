@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: org.ros;version="0.3.7";uses:="org.ros.namespace,org.r
+ os.node"
+Bundle-SymbolicName: org.ros.rosjava_core.rosjava_test
+Bundle-Version: 0.3.7
+Bundle-Name: rosjava_test
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1596482391000
+Import-Package: nav_msgs;version="[1.12,2)",org.apache.commons.logging
+ ;version="[1.1,2)",org.ros.concurrent,org.ros.message,org.ros.namespa
+ ce,org.ros.node,org.ros.node.parameter,org.ros.node.topic,rosjava_tes
+ t_msgs;version="[0.3,1)",std_msgs;version="[0.5,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Created-By: 1.8.0_252 (Private Build)
+Tool: Bnd-3.4.0.201707252008
+

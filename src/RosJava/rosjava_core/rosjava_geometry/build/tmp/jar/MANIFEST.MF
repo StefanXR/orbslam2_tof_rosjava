@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: org.ros.rosjava_geometry;version="0.3.7";uses:="geomet
+ ry_msgs,org.ros.message,org.ros.namespace"
+Bundle-SymbolicName: org.ros.rosjava_core.rosjava_geometry
+Bundle-Version: 0.3.7
+Bundle-Name: rosjava_geometry
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1596482391000
+Import-Package: com.google.common.base;version="[12.0,13)",com.google.
+ common.collect;version="[12.0,13)",geometry_msgs;version="[1.12,2)",o
+ rg.ros.concurrent,org.ros.message,org.ros.namespace,std_msgs;version=
+ "[0.5,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Created-By: 1.8.0_252 (Private Build)
+Tool: Bnd-3.4.0.201707252008
+

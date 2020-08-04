@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xmlrpc.client;version="0.3.7";uses:="javax.
+ net.ssl,org.apache.commons.httpclient,org.apache.commons.httpclient.m
+ ethods,org.apache.xmlrpc,org.apache.xmlrpc.common,org.apache.xmlrpc.s
+ erializer,org.xml.sax",org.apache.xmlrpc.client.util;version="0.3.7";
+ uses:="org.apache.xmlrpc.client,org.apache.xmlrpc.common"
+Bundle-SymbolicName: org.ros.rosjava_core.apache_xmlrpc_client
+Bundle-Version: 0.3.7
+Bundle-Name: apache_xmlrpc_client
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1596482389000
+Import-Package: javax.net,javax.net.ssl,org.apache.commons.httpclient;
+ version="[3.1,4)",org.apache.commons.httpclient.auth;version="[3.1,4)
+ ",org.apache.commons.httpclient.methods;version="[3.1,4)",org.apache.
+ commons.httpclient.params;version="[3.1,4)",org.apache.xmlrpc;version
+ ="[0.3,1)",org.apache.xmlrpc.client;version="[0.3,1)",org.apache.xmlr
+ pc.common;version="[0.3,1)",org.apache.xmlrpc.parser;version="[0.3,1)
+ ",org.apache.xmlrpc.serializer;version="[0.3,1)",org.apache.xmlrpc.ut
+ il;version="[0.3,1)",org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Created-By: 1.8.0_252 (Private Build)
+Tool: Bnd-3.4.0.201707252008
+
